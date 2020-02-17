@@ -1,0 +1,16 @@
+{
+  "name": "net.tnrd.iconmanager",
+  "version": "1.0.0",
+  "displayName": "Icon Manager",
+  "description": "A small utility to set a GameObject's icon through code",
+  "unity": "2019.1",
+ "keywords": [
+    "icon"
+  ],
+  "author": {
+    "name": "Christiaan Bloemendaal",
+    "email": "unity3d@tnrd.net",
+    "url": "https://www.tnrd.net"
+  },
+  "dependencies": {}
+}
