@@ -3,7 +3,7 @@
 <p align="center">
 	<img alt="GitHub package.json version" src ="https://img.shields.io/github/package-json/v/Thundernerd/Unity3D-IconManager" />
 	<a href="https://github.com/Thundernerd/Unity3D-IconManager/issues">
-		<img alt="GitHub issues" src ="https://img.shields.io/github/issues/Thundernerd/Unity3D-IconManager" />
+		<img alt="GitHub issues" src="https://img.shields.io/github/issues/Thundernerd/Unity3D-IconManager">
 	</a>
 	<a href="https://github.com/Thundernerd/Unity3D-IconManager/pulls">
 		<img alt="GitHub pull requests" src ="https://img.shields.io/github/issues-pr/Thundernerd/Unity3D-IconManager" />
