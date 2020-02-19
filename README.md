@@ -57,7 +57,7 @@ You can either add the package manually to the [manifest.json](https://docs.unit
 ```json
 {
     "dependencies": {
-        "net.tnrd.constrainedrect": "https://github.com/thundernerd/unity3d-iconmanager"
+        "net.tnrd.constrainedrect": "https://github.com/Thundernerd/Unity3D-IconManager.git"
     }
 }
 ```
