@@ -1,5 +1,3 @@
-# Icon Manager
-
 <p align="center">
 	<img alt="GitHub package.json version" src ="https://img.shields.io/github/package-json/v/Thundernerd/Unity3D-IconManager" />
 	<a href="https://github.com/Thundernerd/Unity3D-IconManager/issues">
@@ -13,8 +11,6 @@
 	</a>
 	<img alt="GitHub last commit" src ="https://img.shields.io/github/last-commit/Thundernerd/Unity3D-IconManager" />
 </p>
-
-Icon Manager is a small utility that allows you to set icons on GameObjects through code.
 
 ## Usage
 Here's how you use the IconManager
