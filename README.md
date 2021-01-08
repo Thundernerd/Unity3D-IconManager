@@ -16,6 +16,15 @@
 
 Icon Manager is a small utility that allows you to set icons on GameObjects through code.
 
+## Installation
+1. The package is available on the [openupm registry](https://openupm.com). You can install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+```
+openupm add net.tnrd.iconmanager
+```
+2. Installing through a [Unity Package](http://package-installer.glitch.me/v1/installer/package.openupm.com/net.tnrd.iconmanager?registry=https://package.openupm.com) created by the [Package Installer Creator](https://package-installer.glitch.me) from [Needle](https://needle.tools)
+
+[<img src="https://img.shields.io/badge/-Download-success?style=for-the-badge"/>](http://package-installer.glitch.me/v1/installer/package.openupm.com/net.tnrd.iconmanager?registry=https://package.openupm.com)
+
 ## Usage
 Here's how you use the IconManager
 ```c#
@@ -47,20 +56,11 @@ private void Foo()
 }
 ```
 
+## Support
+**Icon Manager** is a small and open-source utility that I hope helps other people. It is by no means necessary but if you feel generous you can support me by donating.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J11GEYY)
+
 ## Contributing
 Pull requests are welcomed. Please feel free to fix any issues you find, or add new features.
-
-## Installing
-Installing Icon Manager into your Unity3D project is done through the [Package Manager](https://docs.unity3d.com/Manual/Packages.html).
-
-You can either add the package manually to the [manifest.json](https://docs.unity3d.com/Manual/upm-dependencies.html) file:
-```json
-{
-    "dependencies": {
-        "net.tnrd.constrainedrect": "https://github.com/Thundernerd/Unity3D-IconManager.git"
-    }
-}
-```
-
-Or add it through the UI by selecting the **+ button** in the top left of the Package Manager, selecting _Add package from git URL..._, and pasting https://github.com/Thundernerd/Unity3D-IconManager.git in the input field.
 
