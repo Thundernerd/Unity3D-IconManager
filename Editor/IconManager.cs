@@ -32,6 +32,9 @@ namespace TNRD.Utilities
 
         public static void SetIconForObject(GameObject obj, Texture2D icon)
         {
+#if UNITY_2021_2_OR_NEWER
+            EditorGUIUtility.SetIconForObject(obj, icon);
+#else
             if (setIconForObjectMethodInfo == null)
             {
                 Type type = typeof(EditorGUIUtility);
@@ -40,6 +43,7 @@ namespace TNRD.Utilities
             }
 
             setIconForObjectMethodInfo.Invoke(null, new object[] {obj, icon});
+#endif
         }
     }
 }
